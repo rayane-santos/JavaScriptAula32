@@ -143,3 +143,20 @@ console.log(materiais.length);
 ["caderno, cola, borracha, tesoura"];
 
 4
+
+//03 — Saudação personalizada
+function saudar(Isabelly) {
+    console.log("Olá, " + Isabelly + "! Seja muito bem-vindo(a).");
+}
+
+saudar("Isabelly");
+saudar("Rayane");
+
+//04 — Calculando o dobro
+function dobro(numero) {
+  return numero * 2;
+}
+
+console.log(dobro(5));   
+console.log(dobro(12)); 
+console.log(dobro(50)); 
